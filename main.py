@@ -29,6 +29,12 @@ while True:
         case "subtract":
             addSub(-1)
 
+        # Multiplication
+        case "multiply":
+            usrInput = dualInputs()
+            result = int(usrInput.inputOne) * int(usrInput.inputTwo)
+            print(f"The result is: {result}")
+
         # Command to exit the program
         case "exit": break
     
