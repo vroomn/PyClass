@@ -25,6 +25,7 @@ while True:
         case "add":
             addSub(1)
         
+        # Subtraction
         case "subtract":
             addSub(-1)
 
