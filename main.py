@@ -17,7 +17,6 @@ while True:
         #Handle Addition situation
         case "addition":
             usrInput = dualInputs()
-            #usrInput.gatherInputs()
             result = int(usrInput.inputOne) + int(usrInput.inputTwo)
             print(f"The result is: {result}")
         
