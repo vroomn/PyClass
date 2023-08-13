@@ -9,6 +9,9 @@ while True:
     usrCommand = input("-> ")
     
     match usrCommand.lower():
+        #Handle Addition situation
+        case "addition":
+            break
         # Command to exit the program
         case "exit":
             execute = False
