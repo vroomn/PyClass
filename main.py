@@ -1,3 +1,13 @@
+# Useful datatypes
+class dualInputs:
+    def __init__(self) -> None:
+        self.inputOne = None
+        self.inputTwo = None
+
+    def gatherInputs(self):
+        self.inputOne = input("Parameter one: ")
+        self.inputTwo = input("Parameter two: ")
+
 # Intro sequence
 print(""""Welcome to the god awful calculator!
 All operations are availible under \"help\"""")
