@@ -21,7 +21,12 @@ while True:
     match usrCommand.lower():
         #Handle Addition situation
         case "addition":
+            usrInput = dualInputs()
+            usrInput.gatherInputs()
+            result = int(usrInput.inputOne) + int(usrInput.inputTwo)
+            print(f"The result is: {result}")
             break
+        
         # Command to exit the program
         case "exit":
             execute = False
