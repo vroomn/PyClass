@@ -1,3 +1,5 @@
+from math import sqrt
+
 # Useful datatype for two inputs from the user
 class dualInputs:
     def __init__(self) -> None:
@@ -33,6 +35,23 @@ while True:
         case "multiply":
             usrInput = dualInputs()
             result = int(usrInput.inputOne) * int(usrInput.inputTwo)
+            print(f"The result is: {result}")
+
+        case "divide":
+            usrInput = dualInputs()
+            result = int(usrInput.inputOne) / int(usrInput.inputTwo)
+            print(f"The result is: {result}")
+
+        # Exponential
+        case "exponential":
+            usrInput = dualInputs()
+            result = int(usrInput.inputOne) ** int(usrInput.inputTwo)
+            print(f"The result is: {result}")
+
+        # Square Root
+        case "square root":
+            usrInput = input("Parameter to square root: ")
+            result = sqrt(int(usrInput))
             print(f"The result is: {result}")
 
         # Command to exit the program
