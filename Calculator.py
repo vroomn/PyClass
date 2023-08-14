@@ -56,4 +56,3 @@ while True:
 
         # Command to exit the program
         case "exit": break
-    
